@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AbiFoods - Menu</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Custom CSS */
+    body {
+      font-family: Arial, sans-serif;
+      background: url('https://source.unsplash.com/1600x900/?food') center center/cover;
+      color: #fff;
+    }
+    .navbar-brand {
+      font-weight: bold;
+    }
+    .menu-container {
+      padding: 50px 0;
+    }
+    .menu-item {
+      background-color: rgba(241, 18, 18, 0.8);
+      border-radius: 10px;
+      margin-bottom: 20px;
+      overflow: hidden;
+    }
+    .menu-item img {
+      width: 100%;
+      height: auto;
+    }
+    .menu-item-content {
+      padding: 20px;
+    }
+    .menu-item h3 {
+      margin-top: 0;
+    }
+    .menu-item p {
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="food.html">AbiFoods</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="food.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Menu Items -->
+  <div class="container menu-container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="menu-item">
+          <img src="https://source.unsplash.com/600x400/?burger" alt="Burger">
+          <div class="menu-item-content">
+            <h3>Burger</h3>
+            <p>Delicious beef burger served with fries.</p>
+            <p>Price: $9.99</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="menu-item">
+          <img src="https://source.unsplash.com/600x400/?pizza" alt="Pizza">
+          <div class="menu-item-content">
+            <h3>Pizza</h3>
+            <p>Classic cheese pizza with a thin crust.</p>
+            <p>Price: $11.99</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="menu-item">
+          <img src="https://source.unsplash.com/600x400/?sushi" alt="Sushi">
+          <div class="menu-item-content">
+            <h3>Sushi</h3>
+            <p>Fresh assortment of sushi rolls.</p>
+            <p>Price: $14.99</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="menu-item">
+          <img src="https://source.unsplash.com/600x400/?pasta" alt="Pasta">
+          <div class="menu-item-content">
+            <h3>Pasta</h3>
+            <p>Spaghetti with marinara sauce and meatballs.</p>
+            <p>Price: $10.99</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="menu-item">
+          <img src="https://source.unsplash.com/600x400/?tacos" alt="Tacos">
+          <div class="menu-item-content">
+            <h3>Tacos</h3>
+            <p>Soft shell tacos with your choice of filling.</p>
+            <p>Price: $8.99</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="menu-item">
+          <img src="https://source.unsplash.com/600x400/?steak" alt="Steak">
+          <div class="menu-item-content">
+            <h3>Steak</h3>
+            <p>Grilled sirloin steak with mashed potatoes.</p>
+            <p>Price: $16.99</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

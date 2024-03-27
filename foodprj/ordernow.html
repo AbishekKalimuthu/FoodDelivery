@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AbiFoods - Order Now</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Custom CSS */
+    body {
+      font-family: Arial, sans-serif;
+      background: url('https://source.unsplash.com/1600x900/?restaurant') center center/cover fixed;
+      color: #05ce69;
+    }
+    .container {
+      margin-top: 50px;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .form-group label {
+      font-weight: bold;
+    }
+    .btn-primary {
+      background-color: #FF5733;
+      border-color: #FF5733;
+    }
+    .btn-primary:hover {
+      background-color: #E9450E;
+      border-color: #E9450E;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="food.html">AbiFoods</a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="food.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Order Form -->
+  <div class="container">
+    <h2>Order Now</h2>
+    <form>
+      <div class="form-group">
+        <label for="foodItem">Select Food Item:</label>
+        <select class="form-control" id="foodItem">
+          <option>Choose...</option>
+          <option>Pizza</option>
+          <option>Burger</option>
+          <option>Pasta</option>
+          <option>Salad</option>
+          <option>Steak</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="quantity">Quantity:</label>
+        <input type="number" class="form-control" id="quantity">
+      </div>
+      <div class="form-group">
+        <label for="deliveryAddress">Delivery Address:</label>
+        <textarea class="form-control" id="deliveryAddress" rows="3"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="contactNumber">Contact Number:</label>
+        <input type="text" class="form-control" id="contactNumber">
+      </div>
+      <a class="btn btn-primary btn-lg" href="confirmed.html" role="button">Place Order</a>
+    </form>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
